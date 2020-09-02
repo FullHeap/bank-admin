@@ -1,8 +1,8 @@
 {
   "name": "bank-admin",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "银行管理系统",
-  "author": "lyz",
+  "author": "liaoyinzhen@agree.com.cn",
   "private": true,
   "scripts": {
     "dev": "vue-cli-service serve",
