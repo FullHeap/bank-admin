@@ -11,7 +11,7 @@ Vue.use(VueAxios, axios)
 
 //element-ui
 import ElementUI from 'element-ui'
-//import 'element-ui/lib/theme-chalk/index.css'
+import 'element-ui/lib/theme-chalk/index.css'
 import './assets/styles/element-variables.scss'
 import '@/assets/styles/index.scss' // global css
 import '@/assets/styles/base.scss' // base css

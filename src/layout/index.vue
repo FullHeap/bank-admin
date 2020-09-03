@@ -84,6 +84,7 @@ export default {
     z-index: 999;
   }
 
+  //计算总体宽度
   .fixed-header {
     position: fixed;
     top: 0;

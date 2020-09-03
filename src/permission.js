@@ -11,12 +11,12 @@ NProgress.configure({ showSpinner: false })
 const whiteList = ['/login', '/auth-redirect', '/bind', '/register']
 
 router.beforeEach((to, from, next) => {
-  //NProgress.start()
+  NProgress.start()
   if (getToken()) {
     /* has token*/
     if (to.path === '/login') {
       next({ path: '/' })
-      //NProgress.done()
+      NProgress.done()
     } else {
       console.log("store.getters.roles:" + store.getters.roles)
       if (store.getters.roles.length === 0) {
